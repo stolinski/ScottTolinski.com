@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.0.1",
+    "gatsby": "^1.1.0",
     "gatsby-link": "^1.0.1",
     "gatsby-plugin-react-helmet": "^1.0.1",
+    "gatsby-plugin-styled-components": "^1.0.1",
     "react-typography": "^0.15.0",
     "styled-components": "^2.1.1",
     "typeface-inconsolata": "^0.0.31",
