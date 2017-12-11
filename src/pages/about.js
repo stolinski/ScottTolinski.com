@@ -45,7 +45,7 @@ export default class About extends React.Component {
               <li>Rapidly prototyped designs for the design process and user testing.</li>
               <li>Utilized AngularJS to build a component library for Ford.com Global Redesign.</li>
               <li>Met with Ford executives to display functionality of design experiments.</li>
-              <li>Worked on a team of developers to coordinate and develop compoent library.</li>
+              <li>Worked on a team of developers to coordinate and develop component library.</li>
               <li>Built resposive web applications to display potential design and interaction experiences.</li>
             </ul>
             <h5>&#047;&#047; OWNER, Level Up Tuts - ANN ARBOR, MI</h5>
