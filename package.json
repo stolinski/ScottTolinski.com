@@ -8,6 +8,7 @@
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-plugin-styled-components": "^2.0.9",
+    "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
     "styled-components": "^3.1.6",
     "typeface-inconsolata": "^0.0.54",
