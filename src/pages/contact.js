@@ -7,7 +7,7 @@ export default class Index extends React.Component {
     return (
       <MainWrapper color="#2980b9">
         <Title>Contact</Title>
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <p>
             <label>
               Your Name: <input type="text" name="name" />
