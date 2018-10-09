@@ -33,7 +33,7 @@ export default class About extends React.Component {
             <ul>
               <li>Received a Bachelors degree in the Fine Arts at the University of Michigan’s Media Arts program.</li>
               <li>Excellent organization, self-motivation, and problem-solving skills.</li>
-              <li>Created and runs a popular Youtube coding education channel with over 700 videos, 8.5million views &amp; 85k subscribers.</li>
+              <li>Created and runs a popular YouTube coding education channel with over 700 videos, 8.5million views &amp; 85k subscribers.</li>
               <li>Creative, strong communication skills and consistently meets deadlines.</li>
               <li>Passionate about web development and new technologies.</li>
             </ul>
@@ -45,8 +45,8 @@ export default class About extends React.Component {
               <li>Rapidly prototyped designs for the design process and user testing.</li>
               <li>Utilized AngularJS to build a component library for Ford.com Global Redesign.</li>
               <li>Met with Ford executives to display functionality of design experiments.</li>
-              <li>Worked on a team of developers to coordinate and develop compoent library.</li>
-              <li>Built resposive web applications to display potential design and interaction experiences.</li>
+              <li>Worked on a team of developers to coordinate and develop component library.</li>
+              <li>Built responsive web applications to display potential design and interaction experiences.</li>
             </ul>
             <h5>&#047;&#047; OWNER, Level Up Tuts - ANN ARBOR, MI</h5>
             <span className="time">&#047;&#047; MARCH 2012 - PRESENT</span>
@@ -71,7 +71,7 @@ export default class About extends React.Component {
             <h5>&#047;&#047; SENIOR DEVELOPER, Q LTD - ANN ARBOR, MI</h5>
             <span className="time">&#047;&#047; MARCH 2011 - OCT 2013</span>
             <ul>
-              <li>Built large, medium, and small scale websites from the ground up using appropriate content management systems (Drupal, Wordpress, Expression Engine, Magento).</li>
+              <li>Built large, medium, and small scale websites from the ground up using appropriate content management systems (Drupal, WordPress, Expression Engine, Magento).</li>
               <li>Utilized latest HTML5 and CSS3 technologies to build semantically correct and visually interesting responsive designs.</li>
               <li>Created interactive elements with custom JavaScript and Jquery.</li>
               <li>Worked frequently with clients to train, assist, and troubleshoot their websites.</li>
