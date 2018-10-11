@@ -40,7 +40,7 @@ const FooterLinks = [
   },
 ];
 
-export default class Template extends React.Component {
+export default class Layout extends React.Component {
   static propTypes = {
     children: PropTypes.func,
   };
