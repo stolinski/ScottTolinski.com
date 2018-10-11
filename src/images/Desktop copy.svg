@@ -1,0 +1,61 @@
+<svg width="1024" height="950" viewBox="0 0 1024 950" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Desktop</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(512 512)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -512 -512L 512 -512L 512 438L -512 438L -512 -512Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Desktop" clip-path="url(#clip-0)">
+<path d="M -512 -512L 512 -512L 512 438L -512 438L -512 -512Z" fill="#FFFFFF"/>
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path1_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path2_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path3_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path4_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path5_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path6_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path7_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path8_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path9_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path10_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path11_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path12_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path13_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path14_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path15_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path16_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path17_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path18_fill" transform="translate(-512 -512)"/>
+<use xlink:href="#path19_fill" transform="translate(-512 -512)"/>
+</g>
+</mask>
+</g>
+</g>
+<defs>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path id="path0_fill" d="M 0 0L 1024 0L 1024 50L 0 50L 0 0Z"/>
+</clipPath >
+
+<path id="path1_fill" fill-rule="evenodd" d="M 1021 3L 3 3L 3 47L 1021 47L 1021 3ZM 0 0L 0 50L 1024 50L 1024 0L 0 0Z"/>
+<path id="path2_fill" d="M 0 100L 1024 100L 1024 150L 0 150L 0 100Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 1021 103L 3 103L 3 147L 1021 147L 1021 103ZM 0 100L 0 150L 1024 150L 1024 100L 0 100Z"/>
+<path id="path4_fill" d="M 0 200L 1024 200L 1024 250L 0 250L 0 200Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 1021 203L 3 203L 3 247L 1021 247L 1021 203ZM 0 200L 0 250L 1024 250L 1024 200L 0 200Z"/>
+<path id="path6_fill" d="M 0 300L 1024 300L 1024 350L 0 350L 0 300Z"/>
+<path id="path7_fill" fill-rule="evenodd" d="M 1021 303L 3 303L 3 347L 1021 347L 1021 303ZM 0 300L 0 350L 1024 350L 1024 300L 0 300Z"/>
+<path id="path8_fill" d="M 0 400L 1024 400L 1024 450L 0 450L 0 400Z"/>
+<path id="path9_fill" fill-rule="evenodd" d="M 1021 403L 3 403L 3 447L 1021 447L 1021 403ZM 0 400L 0 450L 1024 450L 1024 400L 0 400Z"/>
+<path id="path10_fill" d="M 0 500L 1024 500L 1024 550L 0 550L 0 500Z"/>
+<path id="path11_fill" fill-rule="evenodd" d="M 1021 503L 3 503L 3 547L 1021 547L 1021 503ZM 0 500L 0 550L 1024 550L 1024 500L 0 500Z"/>
+<path id="path12_fill" d="M 0 600L 1024 600L 1024 650L 0 650L 0 600Z"/>
+<path id="path13_fill" fill-rule="evenodd" d="M 1021 603L 3 603L 3 647L 1021 647L 1021 603ZM 0 600L 0 650L 1024 650L 1024 600L 0 600Z"/>
+<path id="path14_fill" d="M 0 700L 1024 700L 1024 750L 0 750L 0 700Z"/>
+<path id="path15_fill" fill-rule="evenodd" d="M 1021 703L 3 703L 3 747L 1021 747L 1021 703ZM 0 700L 0 750L 1024 750L 1024 700L 0 700Z"/>
+<path id="path16_fill" d="M 0 800L 1024 800L 1024 850L 0 850L 0 800Z"/>
+<path id="path17_fill" fill-rule="evenodd" d="M 1021 803L 3 803L 3 847L 1021 847L 1021 803ZM 0 800L 0 850L 1024 850L 1024 800L 0 800Z"/>
+<path id="path18_fill" d="M 0 900L 1024 900L 1024 950L 0 950L 0 900Z"/>
+<path id="path19_fill" fill-rule="evenodd" d="M 1021 903L 3 903L 3 947L 1021 947L 1021 903ZM 0 900L 0 950L 1024 950L 1024 900L 0 900Z"/>
+</defs>
+</svg>

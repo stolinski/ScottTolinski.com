@@ -1,71 +1,55 @@
-
 {
-    "parser": "babel-eslint",
-    "env": {
-        "browser": true,
-        "es6": true
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "settings": {
+    "ecmascript": 6,
+    "jsx": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "experimentalDecorators": true,
+      "jsx": true
     },
-    "settings": {
-          "ecmascript": 6,
-          "jsx": true,
-          "import/resolver": "meteor",
-          "import/core-modules": ["meteor/alt:react-accounts-ui","meteor/aldeed:simple-schema","meteor/practicalmeteor:chai","meteor/aldeed:collection2","meteor/mdg:validated-method","meteor/std:accounts-ui","meteor/okgrow:accounts-ui-react", "meteor/check","meteor/mongo","meteor/meteorhacks:ssr","meteor/meteor", "meteor/email", "meteor/react-meteor-data", "meteor/jquery", "meteor/accounts-base", "meteor/random", "meteor/alanning:roles", "meteor/orionsoft:react-meteor-data", "meteor/percolate:synced-cron"]
-    },
-    "parserOptions": {
-        "ecmaVersion": 2017,
-        "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
-            "experimentalDecorators": true,
-            "jsx": true
-        },
-        "sourceType": "module"
-    },
-    "extends": "airbnb",
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-      "radix": 0,
-      "generator-star-spacing": 0,
-      "no-bitwise": ["error", { "allow": ["~"] }],
-      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-      "react/forbid-prop-types":[0],
-      "no-underscore-dangle":[2,{ "allow": ["_id"] }],
-      "react/no-string-refs": [0],
-      "react/no-multi-comp": [0],
-      "no-use-before-define": [0],
-      "max-len": ["error", 120],
-      "import/extensions": [1, "never"],
-      "jsx-a11y/no-static-element-interactions": [0],
-      "no-return-assign": [0],
-      "func-names": [0],
-        "indent": [
-            "error",
-            2
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
-    },
-    "globals": {
-        "Stripe": true,
-        "before": true,
-        "describe": true,
-        "it": true,
-        "Meteor": true,
-        "test": true,
-        "expect": true,
-        "Session": true,
-        "Assets": true,
-        "LoggedInMixin": true
-    }
+    "sourceType": "module"
+  },
+  "extends": "airbnb",
+  "plugins": ["react"],
+  "rules": {
+    "radix": 0,
+    "react/prefer-stateless-function": 0,
+    "generator-star-spacing": 0,
+    "no-bitwise": ["error", { "allow": ["~"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": [0],
+    "no-underscore-dangle": [2, { "allow": ["_id"] }],
+    "react/no-string-refs": [0],
+    "react/no-multi-comp": [0],
+    "no-use-before-define": [0],
+    "max-len": ["error", 120],
+    "import/extensions": [1, "never"],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "no-return-assign": [0],
+    "func-names": [0],
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"]
+  },
+  "globals": {
+    "Stripe": true,
+    "before": true,
+    "describe": true,
+    "it": true,
+    "Meteor": true,
+    "test": true,
+    "expect": true,
+    "Session": true,
+    "Assets": true,
+    "LoggedInMixin": true
+  }
 }
