@@ -8,6 +8,7 @@
     "create-react-context": "^0.2.3",
     "gatsby": "^2.0.55",
     "gatsby-link": "^2.0.6",
+    "gatsby-plugin-manifest": "^2.0.10",
     "gatsby-plugin-netlify": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sitemap": "^2.0.2",
