@@ -11,60 +11,41 @@ import {
 } from './Headings';
 import Footer from './Footer';
 
-import billboardmp4 from '../pages/showcase2.mp4';
-import billboardwebm from '../pages/showcase2.webmhd.webm';
-
-const Layout = ({ location, children }) => {
-  const isHome = location.pathname === '/';
-  return (
-    <div>
-      <Helmet
-        title="Scott Tolinski"
-        meta={[{ name: 'description', content: 'Sample' }, { name: 'keywords', content: 'sample, something' }]}
-      />
-      <Transition items={isHome} from={{ opacity: 0 }} enter={{ opacity: 1 }} leave={{ opacity: 0 }}>
-        {isHome => isHome
-          && (styles => (
-            <div style={styles} key="billboard">
-              <BillboardVideo>
-                <source src={billboardmp4} type="video/mp4" />
-                <source src={billboardwebm} type="video/webm" />
-              </BillboardVideo>
-            </div>
-          ))
-        }
-      </Transition>
-      <SiteHeader>
-        <Link to="/">
-          <Logo page={location.pathname.replace('/', '')}>ST</Logo>
-          <Name>Scott Tolinski</Name>
-        </Link>
-        <SiteNav>
-          <ul>
-            <li>
-              <NavLink underline="#16a085" to="/about">
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink underline="#e74c3c" to="/projects">
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink underline="#2980b9" to="/contact">
-                Contact
-              </NavLink>
-            </li>
-          </ul>
-        </SiteNav>
-      </SiteHeader>
-
-      <Main>{children}</Main>
-      <Footer />
-    </div>
-  );
-};
+const Layout = ({ location, children }) => (
+  <div>
+    <Helmet
+      title="Scott Tolinski"
+      meta={[{ name: 'description', content: 'Sample' }, { name: 'keywords', content: 'sample, something' }]}
+    />
+    <SiteHeader>
+      <Link to="/">
+        <Logo page={location.pathname.replace('/', '')}>ST</Logo>
+        <Name>Scott Tolinski</Name>
+      </Link>
+      <SiteNav>
+        <ul>
+          <li>
+            <NavLink underline="#16a085" to="/about">
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink underline="#e74c3c" to="/projects">
+              Projects
+            </NavLink>
+          </li>
+          <li>
+            <NavLink underline="#2980b9" to="/contact">
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+      </SiteNav>
+    </SiteHeader>
+    <Main>{children}</Main>
+    <Footer />
+  </div>
+);
 
 export default Layout;
 

@@ -2,5 +2,5 @@ module.exports = {
   siteMetadata: {
     title: 'Scott Tolinski',
   },
-  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components', 'gatsby-plugin-netlify'],
 };
