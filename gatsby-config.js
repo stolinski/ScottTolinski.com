@@ -1,9 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Scott Tolinski',
   },
-  plugins: [
-    'gatsby-plugin-react-helmet', 
-    `gatsby-plugin-styled-components`
-  ],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],
 };

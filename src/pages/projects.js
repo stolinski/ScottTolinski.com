@@ -54,9 +54,9 @@ export default class Projects extends React.Component {
           </p>
           <ProjectsList>
             {projects.map(project => (
-              <li>
+              <li key={project.title}>
                 <h3 className="project-title">
-                  <a target="_blank" href={project.link}>
+                  <a target="_blank" rel="noopener noreferrer" href={project.link}>
                     {project.title}
                   </a>
                 </h3>
