@@ -9,18 +9,18 @@ const projects = [
     title: 'Level Up Tutorials',
     link: 'https://www.leveluptutorials.com/',
     desc:
-      '1000+ Web Dev Tutorials on: <a target="_blank" href="https://www.youtube.com/channel/UCyU5wkjgQYGRB0hIHMwm2Sg">Youtube</a><br />Built With: Meteor, React, Stylus',
+      '2000+ Web Dev Tutorials on: <a target="_blank" href="https://www.youtube.com/channel/UCyU5wkjgQYGRB0hIHMwm2Sg">Youtube</a><br />Built With: Meteor, React, Stylus',
+  },
+  {
+    title: 'Syntax',
+    link: 'https://www.syntax.fm/',
+    desc: 'A popular web-dev podcast hosted by Wes Bos & Scott Tolinski',
   },
   {
     title: 'Ford.com Global UX',
     link: 'http://www.ford.com/',
     desc:
       'Design Prototypes and Interactive Digital Styleguide for the Ford.com Global Redesign:<br />Built With: Angular.js, Sass',
-  },
-  {
-    title: 'Atya',
-    link: 'http://getatya.com/',
-    desc: 'Designed & Developed booking and artistic inspiration app:<br />Built With: Meteor, React, Stylus',
   },
   {
     title: 'Q LTD',

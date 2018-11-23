@@ -3,20 +3,16 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import 'typeface-lato';
 import 'typeface-inconsolata';
-import { Transition } from 'react-spring';
 
 import './styles.css';
 import {
-  SiteHeader, SiteNav, NavLink, Logo, Name, Main, BillboardVideo,
+  SiteHeader, SiteNav, NavLink, Logo, Name, Main,
 } from './Headings';
 import Footer from './Footer';
 
 const Layout = ({ location, children }) => (
   <div>
-    <Helmet
-      title="Scott Tolinski"
-      meta={[{ name: 'description', content: 'Sample' }, { name: 'keywords', content: 'sample, something' }]}
-    />
+    <Helmet title="Scott Tolinski - Level Up Tutorials & Syntax.fm" />
     <SiteHeader>
       <Link to="/">
         <Logo page={location.pathname.replace('/', '')}>ST</Logo>
@@ -82,15 +78,3 @@ export default Layout;
 //           <meta name="msapplication-TileColor" content="#111" />
 //           <meta name="msapplication-TileImage" content="/static/ms-icon-144x144.png" />
 //           <meta name="theme-color" content="#111" />
-//           {this.props.headComponents}
-//           <TypographyStyle typography={typography} />
-//           {css}
-//         </head>
-//         <body>
-//           <div id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
-//           {this.props.postBodyComponents}
-//         </body>
-//       </html>
-//     );
-//   }
-// }
