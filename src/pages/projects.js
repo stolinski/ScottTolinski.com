@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: 'Syntax',
-    link: 'https://www.syntax.fm/',
+    link: 'https://syntax.fm/',
     desc: 'A popular web-dev podcast hosted by Wes Bos & Scott Tolinski',
   },
   {
